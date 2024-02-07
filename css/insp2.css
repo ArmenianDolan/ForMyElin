@@ -1,0 +1,105 @@
+.slideshow-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.active {
+    display: block;
+}
+body {
+    background-color: #FFEBCD;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    background-color: pink;
+    transform: rotate(-45deg);
+    margin: 50px;
+    animation: beat 1s infinite alternate;
+  }
+
+  .heart:before,
+  .heart:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50%;
+  }
+
+  .heart:before {
+    left: 50px;
+  }
+
+  .heart:after {
+    left: 0;
+  }
+*/
+  @keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+
+  .heart {
+    position: absolute;
+    background-color: red;
+    filter: drop-shadow(0px 0px 5px var(--drop-shadow));
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    transform: rotate(-45deg);
+        animation: beat 1s infinite alternate;
+
+  }
+  .heart:before,
+  .heart:after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  .heart:before{
+    top: -50px
+  }
+  .heart:after {
+    left: 50px;
+  }
+  button{
+    left:0px;
+    position: fixed;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius:30px;
+    border: 2px solid #C793AC;
+    outline: none;
+    cursor: pointer;
+    font-family: valfont;
+  
+  
+  }

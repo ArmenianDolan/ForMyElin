@@ -1,0 +1,157 @@
+@font-face {
+  font-family: valfont;
+  src: url(../font/Too\ Freakin\ Cute\ Demo.ttf);
+}
+@font-face {
+  font-family: valfont2;
+  src: url(../font/Chasing\ Hearts\ -\ TTF.ttf);
+}
+
+body{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+min-height:100vh;
+background: #FFEBCD;
+
+}
+
+h1{
+  font-family: valfont2;
+  font-size:100px;
+}
+
+h2{
+  font-family: valfont2;
+  font-size: 40px;
+}
+
+.title{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.creator{
+  position: relative;
+  float: right;
+  right: 1em;
+  top: -1.2em;
+  right: 1em;
+  z-index: 200;
+  opacity: 0.5;
+  font-weight:bolder;
+}
+
+
+button{
+  position: absolute;
+  width: 150px;
+  height: inherit;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border-radius:30px;
+  border: 2px solid #C793AC;
+  outline: none;
+  cursor: pointer;
+  font-family: valfont;
+
+
+}
+
+.btn-group {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+i {
+  font-size: 7.5em;
+  color: #C793AC;
+  border: 5px solid transparent;
+  outline: 3px solid #C793AC;
+  border-radius: 50%;
+}
+button:nth-child(1) {
+  margin-left: -200px;
+  background: #C793AC;
+}
+button:nth-child(2) {
+  margin-right: -200px;
+  color: #C793AC;
+}
+
+.certificate{
+  background-image: url("startransparent.gif"), url("catfront.png");
+  background-color: transparent;
+}
+.wrapper {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper2 {
+  position: relative;
+  width: 1200px;
+  height: 800px;
+  background: #f8ddb6;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.giftbtn{
+  margin-top: 20px;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  outline: none;
+  font-family: valfont;
+}
+
+.newbtn{
+  margin-top: 20px;
+  margin-left:200px;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  outline: none;
+  font-family: valfont;
+
+}
+
+.bearj{
+  position: absolute;
+  bottom:0;
+  height: auto;
+  width: 400px;
+
+}
+
+.bearstalk{
+  position: fixed;
+  bottom:0px;
+  left:-100px;
+  width:200px;
+
+}
